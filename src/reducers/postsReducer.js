@@ -3,7 +3,7 @@ const postsReducer = (state = [], action) => {
     case "FETCH_POSTS":
       return action.payload;
     default:
-      return action;
+      return state;
   }
 };
 
